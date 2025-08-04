@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sebastian Coupe | Architectural Visualiser</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      color: #222;
+      background: #f9f9f9;
+    }
+    header {
+      background: #fff;
+      padding: 2rem;
+      text-align: center;
+      border-bottom: 1px solid #ddd;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    header p {
+      margin: 0.5rem 0 0;
+      font-size: 1rem;
+      color: #666;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 1rem 0 0;
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+    }
+    nav a {
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+    }
+    section {
+      padding: 3rem 1rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    section h2 {
+      font-size: 1.5rem;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+    }
+    article {
+      margin-bottom: 2rem;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 0.75rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 1rem;
+    }
+    form input[type="submit"] {
+      background: #333;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    form input[type="submit"]:hover {
+      background: #555;
+    }
+    footer {
+      background: #fff;
+      text-align: center;
+      padding: 1rem;
+      border-top: 1px solid #ddd;
+      font-size: 0.9rem;
+      color: #777;
+    }
+    a {
+      color: #0066cc;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Sebastian Coupe</h1>
+    <p>Architectural Visualiser & Part II Architectural Assistant</p>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>This portfolio summarises nine years of architectural experience from my undergraduate degree at the University of Edinburgh to my current role at Feilden Clegg Bradley Studios.</p>
+    <p>I have worked across residential, education, masterplans, and cultural venues — including the Eden Project Dundee, the International Slavery Museum, and a Stirling Prize-shortlisted university building. My interests include regenerative architecture, materials as storytellers, and computational design processes informed by natural and societal systems.</p>
+  </section>
+
+  <section id="portfolio">
+    <h2>Portfolio</h2>
+    <article>
+      <h3>International Slavery Museum, Liverpool</h3>
+      <p>Design studies, Revit modelling, visuals and BIM coordination for a transformative museum intervention in a Grade I-listed historic dockside building.</p>
+    </article>
+
+    <article>
+      <h3>Forest of Imagination, Bath</h3>
+      <p>Collaborative festival pavilion using timber and jute rope, designed with a narrative about a tree balloon explorer. Parametrically designed and prefabricated.</p>
+    </article>
+
+    <article>
+      <h3>Eden Project Dundee</h3>
+      <p>Regenerative reuse of a gasworks into a post-industrial ecology. Produced diagrams, visuals and assisted design through planning stages.</p>
+    </article>
+
+    <article>
+      <h3>The Stone Organ</h3>
+      <p>A concert hall designed within a Portland quarry, using sonic simulation and material sonification to shape architectural acoustics.</p>
+    </article>
+
+    <article>
+      <h3>Isolotto Weir</h3>
+      <p>Ephemeral event architecture along the Arno River in Florence, powered by pneumatics and designed in the spirit of Superstudio's radical urbanism.</p>
+    </article>
+
+    <article>
+      <h3>University of Warwick Faculty of Arts</h3>
+      <p>Visualisation and facade panel design using Grasshopper scripting for a Stirling Prize-shortlisted educational building.</p>
+    </article>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <form action="mailto:your@email.com" method="post" enctype="text/plain">
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name" required><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" required><br>
+
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="5" required></textarea><br>
+
+      <input type="submit" value="Send">
+    </form>
+    <p>Connect with me on <a href="https://www.linkedin.com/in/YOURUSERNAME" target="_blank">LinkedIn</a>.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Sebastian Coupe</p>
+  </footer>
+</body>
+</html>
